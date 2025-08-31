@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    ;
+}
+
+.first-article {
+    text-align: justify;
+    width: auto;
+    padding: 10px;
+}
+
+.article-wraper {
+    display: flex;
+    border: 2px solid rosybrown;
+    text-align: justify;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    display: block;
+}
+
+.footerpage {
+    margin: 10px 420px;
+    padding: 25px;
+    width: 450px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* display: none; */
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}
+
+.footerspan {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 15px
+}
+
+
+.sun-img {
+    width: 150px;
+    float: left;
+    padding: 7px;
+}
+
+.arttical_two {
+    width: auto;
+    border: 5px solid blue;
+    padding: 25px;
+    margin: 25PX;
+    text-align: justify
+}
+
+.arttical_two_sun_img {
+    width: 150px;
+    float: left;
+    padding: 5px;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.arttical-overfloat {
+    height: 150px;
+    padding: 15px 25px;
+    margin-bottom: 100px;
+    text-align: center;
+    border: 1px solid green;
+    overflow: scroll;
+}
